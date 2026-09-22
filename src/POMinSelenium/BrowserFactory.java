@@ -6,6 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserFactory {
 	static WebDriver driver;
+	// Browser initialization completed
 	public static WebDriver BrowserOptions(String browserName, String url) {
 		if(browserName.equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "D:\\DXC Training testing tools\\DXC Selenium Automation  Class\\LaunchChromeBroweser\\chromebrowersjars\\chromedriver.exe");
